@@ -66,7 +66,7 @@ public class ViewPagerFragment extends Fragment {
         textView = view.findViewById(R.id.viewpager_textView);
         imageView= view.findViewById(R.id.viewpager_imageview);
         textView.setText(mParam1);
-        Picasso.with().load()
+        Picasso.get().load(mParam2).into(imageView);
 
     }
 
