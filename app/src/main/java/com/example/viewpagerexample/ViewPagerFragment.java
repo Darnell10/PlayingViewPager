@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -64,6 +66,7 @@ public class ViewPagerFragment extends Fragment {
         textView = view.findViewById(R.id.viewpager_textView);
         imageView= view.findViewById(R.id.viewpager_imageview);
         textView.setText(mParam1);
+        Picasso.with().load()
 
     }
 
